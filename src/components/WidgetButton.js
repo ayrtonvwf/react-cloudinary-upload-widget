@@ -4,6 +4,7 @@ const WidgetButton = ({ myWidgetFunction, style, buttonText }) => (
   <>
     <button
       id='cloudinary_upload_button'
+      type='button'
       style={
         style || {
           color: 'white',
